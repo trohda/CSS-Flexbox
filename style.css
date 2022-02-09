@@ -23,16 +23,20 @@ body{
     height: 100px;
     min-width: 100px;
     float: left;
+   /* flex-grow: 1; /* może być też wartość 100*/ */
 }
 
 .one{
     background: red;
+    flex-grow: 2;
 }
 
 .two{
     background: blue;
+    flex-grow: 3;
 }
 
 .three{
     background: green;
+    flex-grow: 1;
 }
