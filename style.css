@@ -4,43 +4,30 @@
 }
 
 body{
-    background: gray;
+    background: #eee;
+    color: #333;
 }
 
 .wrapper{
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 960px;
 }
 
-.flex-container{
+#blocks{
     display: flex;
-    background: #fff;
-    flex-wrap: wrap;
-    flex-flow: column;
-    height: 600px;
-    justify-content: center;
-    align-items: center;
-    
+    margin: 10px;
+    justify-content: space-between;
 }
 
 
-.box{
-    width: 100px;
-    flex: 0 0 100px
-  }
-
-.one{
-    background: red;
-   
+#blocks div{
+    flex: 0 0 100px;
+    padding: 40px 0;
+    text-align: center;
+    background: #ccc;
 }
 
-.two{
-    background: blue;
-    
-}
-
-.three{
-    background: green;
-    
-}
+.one{order: 3;}
+.two{order: 2;}
+.three{order: -1;}
+.four{order: 0;}
