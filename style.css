@@ -9,7 +9,7 @@ body{
 
 .wrapper{
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -22,21 +22,20 @@ body{
 
 .box{
     height: 100px;
-    min-width: 300px;
-    flex-grow: 1;
- }
+    flex: 1 0 200px
+  }
 
 .one{
     background: red;
-
+   
 }
 
 .two{
     background: blue;
-
+    
 }
 
 .three{
     background: green;
-
+    
 }
